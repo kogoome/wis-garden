@@ -26,5 +26,6 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.3.6"
 	},
-	"type": "module"
+	"type": "module",
+  "homepage": "https://path-of-reason.github.io/wis-garden/",
 }
