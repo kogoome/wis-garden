@@ -2,7 +2,7 @@
 	"name": "wis-garden",
 	"version": "0.0.1",
 	"private": true,
-	"homepage": "/wis-garden",
+	"homepage": "/wis-garden/",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
