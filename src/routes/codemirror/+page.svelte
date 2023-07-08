@@ -43,22 +43,28 @@
 			return true;
 		}
 
+		const underlineKeymap = keymap.of([
+			{
+				key: 'Mod-h',
+				preventDefault: true,
+				run: underlineSelection
+			}
+		]);
+
 		let state = EditorState.create({
 			doc: 'Hello World',
-			extensions: [tabSize.of(EditorState.tabSize.of(2)), keymap.of(defaultKeymap)]
+			extensions: [tabSize.of(EditorState.tabSize.of(2)), keymap.of(defaultKeymap), underlineKeymap]
 		});
 
 		let view = new EditorView({
 			state,
-			parent: document.getElementById('container') as HTMLDivElement,
+			parent: document.getElementById('container') as HTMLDivElement
 		});
 	});
 </script>
 
 <div class="text-2xl">hello codemirror!!</div>
 <div id="container" class="p-10 rounded-2xl" />
-
-
 
 <style>
 	:global(.cm-underline) {
