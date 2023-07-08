@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: setup node
         uses: actions/setup-node@v3
         with:
-          node-version: "18.16.0"
+          node-version: '18.16.0'
 
       - name: cache dependencies
         uses: actions/cache@v3
@@ -32,4 +32,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUBTOKEN }}
-          publish_dir: ./out
+          publish_dir: ./build
