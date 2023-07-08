@@ -27,5 +27,5 @@
 		"vite": "^4.3.6"
 	},
 	"type": "module",
-  "homepage": "https://path-of-reason.github.io/wis-garden/",
+  "homepage": "/wis-garden/",
 }
