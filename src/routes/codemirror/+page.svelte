@@ -10,7 +10,7 @@
 
 		let state = EditorState.create({
 			doc: 'Hello World',
-			extensions: [basicSetup, tabSize.of(EditorState.tabSize.of(2)), keymap.of(defaultKeymap)]
+			extensions: [tabSize.of(EditorState.tabSize.of(2)), keymap.of(defaultKeymap)]
 		});
 
 		let myTheme = EditorView.theme(
