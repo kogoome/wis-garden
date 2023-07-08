@@ -48,34 +48,9 @@
 			extensions: [tabSize.of(EditorState.tabSize.of(2)), keymap.of(defaultKeymap)]
 		});
 
-		let myTheme = EditorView.theme(
-			{
-				'&': {
-					color: 'white',
-					backgroundColor: '#034'
-				},
-				'.cm-content': {
-					caretColor: '#0e9'
-				},
-				'&.cm-focused .cm-cursor': {
-					borderLeftColor: '#0e9'
-				},
-				'&.cm-focused .cm-selectionBackground, ::selection': {
-					backgroundColor: '#074'
-				},
-				'.cm-gutters': {
-					backgroundColor: '#045',
-					color: '#ddd',
-					border: 'none'
-				}
-			},
-			{ dark: true }
-		);
-
 		let view = new EditorView({
 			state,
 			parent: document.getElementById('container') as HTMLDivElement,
-			extensions: myTheme
 		});
 	});
 </script>
@@ -83,8 +58,28 @@
 <div class="text-2xl">hello codemirror!!</div>
 <div id="container" class="p-10 rounded-2xl" />
 
+
+
 <style>
 	:global(.cm-underline) {
 		text-decoration: 'underline 3px red';
+	}
+	:global(.cm-gutters) {
+		background-color: '#045';
+		color: '#ddd';
+		border: 'none';
+	}
+	:global(&) {
+		color: 'white';
+		background-color: '#034';
+	}
+	:global(&.cm-focused .cm-selectionBackground)::selection {
+		background-color: '#074';
+	}
+	:global(&.cm-focused .cm-cursor) {
+		border-left-color: '#0e9';
+	}
+	:global(.cm-content) {
+		caret-color: '#0e9';
 	}
 </style>
