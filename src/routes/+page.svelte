@@ -1,8 +1,7 @@
 <script>
-  const path = '/wis-garden'
 </script>
 
 <h1 class="bg-slate-400 rounded-lg px-2">Welcome to SvelteKit</h1>
-<div class="text-emerald-300 text-lg font-bold"><a href="{path}/codemirror">codemirror</a></div>
+<div class="text-emerald-300 text-lg font-bold"><a href="/wis-garden/codemirror">codemirror</a></div>
 
 
