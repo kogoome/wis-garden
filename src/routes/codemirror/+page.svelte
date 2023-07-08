@@ -31,7 +31,7 @@
 			provide: (f) => EditorView.decorations.from(f)
 		});
 
-		export function underlineSelection(view: EditorView) {
+		function underlineSelection(view: EditorView) {
 			let effects: StateEffect<unknown>[] = view.state.selection.ranges
 				.filter((r) => !r.empty)
 				.map(({ from, to }) => addUnderline.of({ from, to }));
