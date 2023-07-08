@@ -1,1 +1,0 @@
-import{s as n,n as o}from"../chunks/scheduler.e108d1fd.js";import{S as s,i,m as c,n as l,a as m,f as p}from"../chunks/index.0719bd3d.js";function f(r){let t;return{c(){t=c("hello codemirror!!!")},l(e){t=l(e,"hello codemirror!!!")},m(e,a){m(e,t,a)},p:o,i:o,o,d(e){e&&p(t)}}}class h extends s{constructor(t){super(),i(this,t,null,f,n,{})}}export{h as component};
