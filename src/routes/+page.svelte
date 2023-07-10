@@ -6,3 +6,6 @@
 <div class="text-emerald-300 text-lg font-bold">
 	<a href="{base}/codemirror">codemirror</a>
 </div>
+<div class="text-emerald-300 text-lg font-bold">
+	<a href="{base}/customEditor">custom editor</a>
+</div>
