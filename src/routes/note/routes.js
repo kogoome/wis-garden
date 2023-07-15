@@ -1,5 +1,3 @@
 export const routes = [
-  'test',
-  'test2',
-  'test3'
+  'markdown-test'
 ]

@@ -1,14 +1,9 @@
 ---
+layout: md
 title: "welcome to test md"
 subtitle: "스벨트로 마크다운 블로그 하기"
 date: "2023-7-15"
 ---
-
-<script>
-    import NoteLayout from '../noteLayoutComponent.svelte'
-</script>
-
-<NoteLayout {title} {subtitle} {date} >
 
 typography
 
@@ -63,4 +58,3 @@ const a = () => {
 
 - [ ] it work?
  
-</NoteLayout>
