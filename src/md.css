@@ -64,12 +64,15 @@ ol {
 	list-style-type: decimal;
 }
 li::marker {
-	color: rgb(167, 195, 244);
+	color: rgb(123, 169, 248);
 }
-
+li:hover {
+	color: white;
+}
 li {
 	display: list-item;
 	text-align: -webkit-match-parent;
+	transition: color 0.1s ease-in-out;
 }
 
 /* 
@@ -92,10 +95,10 @@ p,
 ol,
 ul {
 	font-size: 1.4rem;
+	color: rgb(158, 158, 158);
 }
 
 p {
-	color: rgb(158, 158, 158);
 	line-height: 2rem;
 	margin-top: 1.4rem;
 	margin-bottom: 1.4rem;
@@ -155,12 +158,13 @@ a {
 	transition: color 0.1s ease-in-out;
 }
 a:hover {
-	color: rgb(144, 181, 246);
+	color: rgb(125, 172, 255);
 }
 
 pre {
+	color: rgb(158, 158, 158);
 	margin: 10px;
-	background-color: rgb(26, 9, 60);
+	background-color: rgb(23, 11, 45);
 	padding: 10px;
 	border-radius: 10px;
 	padding-left: 2.5%;

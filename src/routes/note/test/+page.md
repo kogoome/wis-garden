@@ -1,7 +1,8 @@
 ---
-title: welcome to test md
-subtitle: 스벨트로 마크다운 블로그 하기
-date: 2023-7-15
+layout: note
+title: "welcome to test md"
+subtitle: "스벨트로 마크다운 블로그 하기"
+date: "2023-7-15"
 ---
 
 typography
@@ -52,4 +53,5 @@ const a = () => {
 
 ### image
 
-![image](image.png)
+![image](src/lib/assets/image.png)
+ 

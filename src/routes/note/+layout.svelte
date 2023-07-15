@@ -1,8 +1,8 @@
 <script>
-	import Sidebar from "./Sidebar.svelte";
+	import SideNavbar from "./SideNavbar.svelte";
 
 </script>
 <div class="flex w-screen h-screen ">
-  <Sidebar/>
+  <SideNavbar/>
   <slot/>
 </div>

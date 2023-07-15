@@ -1,23 +1,16 @@
 // import adapter from '@sveltejs/adapter-auto';
-import adapter from '@sveltejs/adapter-static';
+// import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-node';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import { mdsvex } from 'mdsvex';
-import path from 'path';
+import mdsvexConfig from './mdsvex.config.js';
 
 const dev = process.env.NODE_ENV === 'development';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: [
-		vitePreprocess(),
-		mdsvex({
-			extensions: ['.md']
-			// layout: {
-			// 	note: 'src/routes/note/MdLayout.svelte'
-			// }
-		})
-	],
-	extensions: ['.svelte', '.md'],
+	extensions: ['.svelte', ...mdsvexConfig.extensions],
+	preprocess: [mdsvex(mdsvexConfig), vitePreprocess()],
 	kit: {
 		adapter: adapter({
 			pages: 'build',
@@ -28,13 +21,7 @@ const config = {
 				base: dev ? '' : '/wis-garden'
 			},
 			strict: true
-		}),
-		prerender: {
-			entries: ['/note/test', '/', '/codemirror', '/customEditor']
-		}
-		// alias: {
-		// 	$lib: 'src/lib'
-		// }
+		})
 	}
 };
 

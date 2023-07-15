@@ -36,6 +36,7 @@
 	</button>
 	<!-- <div class="whitespace-nowrap overflow-hidden text-2xl">wis garden</div> -->
 	<div class="w-full h-full p-5">
+    <img src="../../lib/assets/image.png" alt=""/>
 		<div class="whitespace-nowrap overflow-hidden">
 			<a href="/note/test">test</a>
 		</div>
