@@ -7,19 +7,21 @@
 <svelte:head>
 	<title>{title}</title>
 </svelte:head>
-<article class="bg-black w-full h-screen overflow-y-scroll px-10">
-	<div class="bg-black w-full h-[80vh] text-zinc-300 text-end flex flex-col justify-center">
+<article class="bg-[#111] w-full h-screen overflow-y-scroll">
+	<div class="w-full h-[80vh] text-end flex flex-col justify-center gap-8 px-10">
 		<div class="text-gradient font-bold text-8xl">
 			{title}
 		</div>
-		<div class="text-3xl">
-			{subtitle}
-		</div>
-		<div>
-			{date}
+		<div class="flex flex-col gap-1">
+			<div class="text-3xl text-zinc-300">
+				{subtitle}
+			</div>
+			<div class="text-zinc-500">
+				{date}
+			</div>
 		</div>
 	</div>
-	<div class="text-slate-200">
+	<div class="text-slate-200 px-10">
 		<Content />
 	</div>
 </article>

@@ -17,6 +17,8 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur vel incid
 
 ### head 3 lists
 
+asdfsadfasdfsadf
+
 - list test
   - indent list
     - deps 2
@@ -35,8 +37,8 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur vel incid
 
 ### links
 
-[link](/note)
-[google](https://www.google.com)
+[internal link](/note)
+[external google](https://www.google.com)
 
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur vel incidunt excepturi. Facilis totam amet odit eum. Sed obcaecati, illum sit totam debitis, corporis, repudiandae amet commodi placeat minima iste.
 

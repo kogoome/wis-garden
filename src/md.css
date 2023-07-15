@@ -1,3 +1,16 @@
+h1,
+h2,
+h3 {
+	color: rgb(234, 234, 234);
+	transition: all 0.2s ease-in-out;
+}
+h1:hover,
+h2:hover,
+h3:hover,
+p:hover {
+	color: white;
+}
+
 h1 {
 	font-weight: 400;
 	margin-top: 4rem;
@@ -15,7 +28,6 @@ h2 {
 }
 
 h3 {
-	font-style: italic;
 	font-weight: 400;
 	font-size: 1.7rem;
 	margin-top: 2rem;
@@ -35,29 +47,24 @@ h3:hover::after {
 	content: ' ###';
 	opacity: 0.4;
 }
-p.subtitle {
-	font-style: italic;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	font-size: 1.8rem;
-	display: block;
-	line-height: 1;
-}
 
+ol,
 ul {
 	display: block;
-	list-style-type: disc;
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
-	padding-inline-start: 20px;
+	padding-inline-start: 4%;
+	/* padding-left: 2px; */
+}
+ul {
+	list-style-type: disc;
 }
 
 ol {
-	display: block;
 	list-style-type: decimal;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	padding-inline-start: 20px;
+}
+li::marker {
+	color: rgb(167, 195, 244);
 }
 
 li {
@@ -65,18 +72,21 @@ li {
 	text-align: -webkit-match-parent;
 }
 
-.numeral {
-	font-family: et-book-roman-old-style;
+/* 
+ol,
+ul {
+	padding-left: 2rem;
+
 }
 
-.danger {
-	color: red;
+li {
+	margin: 1rem 0;
 }
 
-section {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-}
+li p {
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+} */
 
 p,
 ol,
@@ -85,34 +95,13 @@ ul {
 }
 
 p {
+	color: rgb(158, 158, 158);
 	line-height: 2rem;
 	margin-top: 1.4rem;
 	margin-bottom: 1.4rem;
 	padding-right: 0;
 	vertical-align: baseline;
-}
-
-/* Chapter Epigraphs */
-div.epigraph {
-	margin: 5em 0;
-}
-
-div.epigraph > blockquote {
-	margin-top: 3em;
-	margin-bottom: 3em;
-}
-
-div.epigraph > blockquote,
-div.epigraph > blockquote > p {
-	font-style: italic;
-}
-
-div.epigraph > blockquote > footer {
-	font-style: normal;
-}
-
-div.epigraph > blockquote > footer > cite {
-	font-style: italic;
+	transition: color 0.1s ease-in-out;
 }
 
 /* end chapter epigraphs styles */
@@ -133,22 +122,6 @@ blockquote p {
 blockquote footer {
 	font-size: 1.1rem;
 	text-align: right;
-}
-
-ol,
-ul {
-	padding-left: 2rem;
-	-webkit-padding-start: 5%;
-	-webkit-padding-end: 5%;
-}
-
-li {
-	margin: 1rem 0;
-}
-
-li p {
-	margin-bottom: 0.5rem;
-	margin-top: 0.5rem;
 }
 
 figure {
@@ -179,122 +152,20 @@ figure.fullwidth figcaption {
 }
 a {
 	color: rgb(50, 107, 205);
+	transition: color 0.1s ease-in-out;
 }
 a:hover {
-	color: rgb(70, 127, 225);
-}
-/* Links: replicate underline that clears descenders */
-
-/* Sidenotes, margin notes, figures, captions */
-
-.sidenote,
-.marginnote {
-	float: right;
-	clear: right;
-	margin-right: -60%;
-	margin-top: 0;
-	margin-bottom: 0;
-	font-size: 1.1rem;
-	line-height: 1.3;
-	vertical-align: baseline;
-	position: relative;
-}
-
-.table-caption {
-	float: right;
-	clear: right;
-	margin-right: -60%;
-	margin-top: 0;
-	margin-bottom: 0;
-	font-size: 1rem;
-	line-height: 1.6;
-}
-
-.sidenote-number {
-	counter-increment: sidenote-counter;
-}
-
-.sidenote-number:after,
-.sidenote:before {
-	content: counter(sidenote-counter) ' ';
-	font-family: et-book-roman-old-style;
-	position: relative;
-	vertical-align: baseline;
-}
-
-.sidenote-number:after {
-	content: counter(sidenote-counter);
-	font-size: 1rem;
-	top: -0.5rem;
-	left: 0.1rem;
-}
-
-.sidenote:before {
-	content: counter(sidenote-counter) ' ';
-	top: -0.5rem;
-}
-
-div.table-wrapper {
-	overflow-x: scroll;
-	font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', sans-serif;
-}
-
-.sans {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
-	letter-spacing: 0.03em;
-}
-
-code,
-.code {
-	font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-	font-size: 1.125rem;
-	line-height: 1.6;
-}
-
-h1 .code,
-h2 .code,
-h3 .code {
-	font-size: 0.8em;
-}
-
-.marginnote .code,
-.sidenote .code {
-	font-size: 1rem;
+	color: rgb(144, 181, 246);
 }
 
 pre {
-	background-color: red;
+	margin: 10px;
+	background-color: rgb(26, 9, 60);
 	padding: 10px;
-	padding-left: 20px;
 	border-radius: 10px;
-}
-pre.code {
 	padding-left: 2.5%;
-	overflow-x: scroll;
+	overflow-wrap: break-word;
 }
-
-.fullwidth {
-	clear: both;
-}
-
-span.newthought {
-	font-variant: small-caps;
-	font-size: 1.2em;
-}
-
-input.margin-toggle {
-	display: none;
-}
-
-label.sidenote-number {
-	display: inline;
-}
-
-label.margin-toggle:not(.sidenote-number) {
-	display: none;
-}
-
-/* Tables */
 
 table {
 	border-collapse: collapse;

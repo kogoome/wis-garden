@@ -1,12 +1,25 @@
 <script lang="ts">
 	let open: true;
+	let sidebarWidth = 200;
+	const sidebarToggle = () => {
+		sidebarWidth = sidebarWidth === 200 ? 0 : 200;
+	};
+	const autoSidebarOpen = () => {
+		if (sidebarWidth) return;
+		sidebarWidth = 200;
+	};
 </script>
 
-<div class="w-[200px] h-full bg-zinc-900 p-5 text-zinc-300 relative">
-	<div
-		class="absolute top-0 -right-5 w-5 h-full bg-black hover:bg-zinc-800 flex flex-col justify-center"
+<div
+	class="h-full bg-zinc-900 text-zinc-300 relative transition-all"
+	style={`width: ${sidebarWidth}px`}
+>
+	<button
+		class="absolute top-0 -right-5 w-5 h-full bg-[#111] hover:bg-zinc-800 flex flex-col justify-center"
+		on:click={sidebarToggle}
+		on:mouseenter={autoSidebarOpen}
 	>
-		<div class="flex justify-center">
+		<div class="w-full flex justify-center">
 			<svg
 				width="12"
 				height="20"
@@ -20,32 +33,32 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</button>
 	<!-- <div class="whitespace-nowrap overflow-hidden text-2xl">wis garden</div> -->
-	<div class="whitespace-nowrap overflow-hidden">
-		<a href="/note/test"
-			>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-		>
-	</div>
-	<div class="whitespace-nowrap overflow-hidden">
-		<a href="/note/test"
-			>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-		>
-	</div>
-	<div class="whitespace-nowrap overflow-hidden">
-		<a href="/note/test"
-			>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-		>
-	</div>
-	<div class="whitespace-nowrap overflow-hidden">
-		<a href="/note/test"
-			>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-		>
-	</div>
-	<div class="whitespace-nowrap overflow-hidden">
-		<a href="/note/test"
-			>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-		>
+	<div class="w-full h-full p-5">
+		<div class="whitespace-nowrap overflow-hidden">
+			<a href="/note/test">test</a>
+		</div>
+		<!-- <div class="whitespace-nowrap overflow-hidden">
+			<a href="/note/test"
+				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
+			>
+		</div>
+		<div class="whitespace-nowrap overflow-hidden">
+			<a href="/note/test"
+				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
+			>
+		</div>
+		<div class="whitespace-nowrap overflow-hidden">
+			<a href="/note/test"
+				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
+			>
+		</div>
+		<div class="whitespace-nowrap overflow-hidden">
+			<a href="/note/test"
+				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
+			>
+		</div> -->
 	</div>
 </div>
 
