@@ -3,12 +3,11 @@ import type { PageLoad } from "./$types";
 
 export const load = ( async ({params}) =>{
   if (!params.title) return { title: 'title is empty', content: '' }
-  
-  const note = await import(`../${params.title}.md`)
-  const content = note.default
-  
+  const title = params.title
+  const note = await import(`../${title}.md`)
+  const Content = note.default
 
-  return {title: params.title, content}
+  return {title, Content}
 }) satisfies PageLoad;
 
 
