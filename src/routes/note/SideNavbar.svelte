@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	let sidebarWidth = 200;
 	const sidebarToggle = () => {
 		sidebarWidth = sidebarWidth === 200 ? 0 : 200;
@@ -30,7 +31,7 @@
 	</button>
 	<div class="w-full h-full p-5">
 		<div class="whitespace-nowrap overflow-hidden">
-			<a href="/note/test">test</a>
+			<a href="{base}/note/test">test</a>
 		</div>
 		<!-- <div class="whitespace-nowrap overflow-hidden">
 			<a href="/note/test"
