@@ -17,9 +17,6 @@ const config = {
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			paths: {
-				base: dev ? '' : '/wis-garden'
-			},
       alias: {
         '$lib/': './src/lib/'
       },
