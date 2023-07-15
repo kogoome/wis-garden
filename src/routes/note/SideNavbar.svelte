@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
+  import { routes } from './routes'
 	let sidebarWidth = 200;
 	const sidebarToggle = () => {
 		sidebarWidth = sidebarWidth === 200 ? 0 : 200;
@@ -30,15 +31,11 @@
 		</div>
 	</button>
 	<div class="w-full h-full p-5">
+    {#each routes as route }
 		<div class="whitespace-nowrap overflow-hidden">
-			<a href="{base}/note/test">test</a>
+			<a href={`${base}/note/${route}`}>{route}</a>
 		</div>
-		<div class="whitespace-nowrap overflow-hidden">
-			<a href="{base}/note/test2">test2</a>
-		</div>
-		<div class="whitespace-nowrap overflow-hidden">
-			<a href="{base}/note/test3">test3</a>
-		</div>
+    {/each}
 		<!-- <div class="whitespace-nowrap overflow-hidden">
 			<a href="/note/test"
 				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
