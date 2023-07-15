@@ -3,10 +3,6 @@
 	const sidebarToggle = () => {
 		sidebarWidth = sidebarWidth === 200 ? 0 : 200;
 	};
-	const autoSidebarOpen = () => {
-		if (sidebarWidth) return;
-		sidebarWidth = 200;
-	};
 </script>
 
 <div
@@ -16,7 +12,6 @@
 	<button
 		class="absolute top-0 -right-5 w-5 h-full bg-[#111] hover:bg-zinc-800 flex flex-col justify-center"
 		on:click={sidebarToggle}
-		on:mouseenter={autoSidebarOpen}
 	>
 		<div class="w-full flex justify-center">
 			<svg
@@ -33,7 +28,6 @@
 			</svg>
 		</div>
 	</button>
-	<!-- <div class="whitespace-nowrap overflow-hidden text-2xl">wis garden</div> -->
 	<div class="w-full h-full p-5">
 		<div class="whitespace-nowrap overflow-hidden">
 			<a href="/note/test">test</a>

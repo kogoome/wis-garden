@@ -20,6 +20,9 @@ const config = {
 			paths: {
 				base: dev ? '' : '/wis-garden'
 			},
+      alias: {
+        '$lib/': './src/lib/'
+      },
 			strict: true
 		})
 	}
