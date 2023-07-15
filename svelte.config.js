@@ -21,7 +21,7 @@ const config = {
 			strict: true
 		}),
     prerender: {
-      entries: ['/note/test']
+      entries: ['/note/test','/','/codemirror','/customEditor']
     }
 	}
 };
