@@ -19,7 +19,10 @@ const config = {
 				base: dev ? '' : '/wis-garden'
 			},
 			strict: true
-		})
+		}),
+    prerender: {
+      entries: ['/note/test']
+    }
 	}
 };
 
