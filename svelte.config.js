@@ -31,10 +31,10 @@ const config = {
 		}),
 		prerender: {
 			entries: ['/note/test', '/', '/codemirror', '/customEditor']
-		},
-		alias: {
-			$lib: 'src/lib'
 		}
+		// alias: {
+		// 	$lib: 'src/lib'
+		// }
 	}
 };
 

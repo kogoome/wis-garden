@@ -4,12 +4,15 @@
 	const { title, subtitle, date, Content } = data;
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 <article class="bg-black w-full h-screen overflow-y-scroll px-10">
-	<div class="bg-black w-full h-[80vh] text-7xl text-end flex flex-col justify-center">
-		<div class="text-gradient font-bold text-white">
+	<div class="bg-black w-full h-[80vh] text-zinc-300 text-end flex flex-col justify-center">
+		<div class="text-gradient font-bold text-8xl">
 			{title}
 		</div>
-		<div>
+		<div class="text-3xl">
 			{subtitle}
 		</div>
 		<div>
