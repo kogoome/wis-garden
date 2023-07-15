@@ -50,8 +50,11 @@ const a = () => {
 	return 1;
 };
 ```
+- need highlight
 
-### image
+### image not work yet!
+ 
+### checkbox
 
-![image](src/lib/assets/image.png)
+- [ ] it work?
  
