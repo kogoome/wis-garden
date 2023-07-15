@@ -1,15 +1,14 @@
 // import { error } from "console";
 import type { PageLoad } from "./$types";
 
-export const load = (({params}) =>{
+export const load = ( async ({params}) =>{
   if (!params.title) return { title: 'title is empty', content: '' }
-  // get docs
-  const title = 'hello world';
-  const content = 'this is content'
-  // throw error(404, 'Not found');
+  
+  const note = await import(`../${params.title}.md`)
+  const content = note.default
   
 
-  return {title, content}
+  return {title: params.title, content}
 }) satisfies PageLoad;
 
 

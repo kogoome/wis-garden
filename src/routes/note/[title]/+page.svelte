@@ -9,3 +9,6 @@
 <div>
   hello world
 </div>
+<div>
+  {data.content}
+</div>
