@@ -36,6 +36,9 @@
 		<div class="whitespace-nowrap overflow-hidden">
 			<a href="{base}/note/test2">test2</a>
 		</div>
+		<div class="whitespace-nowrap overflow-hidden">
+			<a href="{base}/note/test3">test3</a>
+		</div>
 		<!-- <div class="whitespace-nowrap overflow-hidden">
 			<a href="/note/test"
 				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
