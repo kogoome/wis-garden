@@ -1,6 +1,7 @@
-export const load = async () => {
-	const fileName = 'test';
-	const post = await import(`./${fileName}.md`);
+export const load = async ({ url }) => {
+	const fileName = url.pathname.replace('/note/', '');
+
+	const post = await import(/* @vite-ignore */ `./${fileName}.md`);
 	const { title, subtitle, date } = post.metadata;
 	const Content = post.default;
 
