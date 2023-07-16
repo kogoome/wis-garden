@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { base } from '$app/paths';
+  export let base: string
   import { routes } from './routes'
 	let sidebarWidth = 200;
 	const sidebarToggle = () => {
