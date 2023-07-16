@@ -3,8 +3,8 @@
 
 
 </script>
-<div class="w-screen h-screen">
-  <!-- <SideNavbar/> -->
+<div class="w-screen h-screen flex">
+  <SideNavbar/>
   <slot/>
 </div>
 
