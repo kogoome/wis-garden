@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { base } from '$app/paths';
   import { routes } from './routes'
 	let sidebarWidth = 200;
 	const sidebarToggle = () => {
 		sidebarWidth = sidebarWidth === 200 ? 0 : 200;
 	};
+  const base = '/wis-garden'
 </script>
 
 <div
