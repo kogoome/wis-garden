@@ -10,6 +10,9 @@
 /.next/
 /out/
 
+# nextra
+theme.config.js
+
 # production
 /build
 
