@@ -14,7 +14,7 @@
     <a href="{base}/note">note</a>
   </div>
   <div class="text-emerald-300 text-lg font-bold">
-    <a href="{base}/note3">note</a>
+    <a href="{base}/note3">note3</a>
   </div>
   <!-- <div class="text-emerald-300 text-lg font-bold"> -->
   <!--   <a href="{base}/wis-garden/test">test</a> -->
