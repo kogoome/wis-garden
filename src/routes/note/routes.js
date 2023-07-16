@@ -1,3 +1,4 @@
 export const routes = [
-  'markdown-test'
+  'markdown-test',
+  'expressions'
 ]
