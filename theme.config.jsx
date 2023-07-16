@@ -1,15 +1,14 @@
 import React from "react";
-import { DocsThemeConfig } from "nextra-theme-docs";
 import { Head } from "./components/Head";
 import { useNextSeoProps } from "./config/useNextSeoProps";
 import { Logo } from "./components/Logo";
 
-const config:DocsThemeConfig = {
+const config = {
   logo: Logo,
-  project: {
-    link: 'not yet'
-  },
-  docsRepositoryBase: 'not yet',
+  // project: {
+  //   link: 'empty'
+  // },
+  // docsRepositoryBase: 'empty',
   footer: {
     text: "made by wis"
   },

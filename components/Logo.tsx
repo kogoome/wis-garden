@@ -11,7 +11,6 @@ export function Logo() {
     {/*   height={30} */}
     {/* /> */}
       <span>wis-garden</span>
-      <div className="text-slate-300" ></div>
     </>
   );
 }
