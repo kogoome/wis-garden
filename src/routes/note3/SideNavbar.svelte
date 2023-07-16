@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { base } from '$app/paths';
-  // const base = '/wis-garden'
-  const routes = ['markdown-test']
+  import { routes} from './routes'
+  export let base:string
+
 	let sidebarWidth = 200;
 	const sidebarToggle = () => {
 		sidebarWidth = sidebarWidth === 200 ? 0 : 200;
