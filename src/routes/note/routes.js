@@ -1,4 +1,4 @@
 export const routes = [
-  'markdown-test',
-  'expressions'
+  ['markdown-test', 'markdown-test'],
+  ['expressions', '말과 표정']
 ]
