@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SideNavbar from "../note/SideNavbar.svelte";
+	import SideNavbar from "./SideNavbar.svelte";
 
 
 </script>
