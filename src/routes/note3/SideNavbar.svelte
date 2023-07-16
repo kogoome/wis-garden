@@ -36,31 +36,6 @@
 			<a href={`${base}/note3/${route}`}>{route}</a>
 		</div>
     {/each}
-		<!-- <div class="whitespace-nowrap overflow-hidden">
-			<a href="/note/test"
-				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-			>
-		</div>
-		<div class="whitespace-nowrap overflow-hidden">
-			<a href="/note/test"
-				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-			>
-		</div>
-		<div class="whitespace-nowrap overflow-hidden">
-			<a href="/note/test"
-				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-			>
-		</div>
-		<div class="whitespace-nowrap overflow-hidden">
-			<a href="/note/test"
-				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-			>
-		</div> -->
 	</div>
 </div>
 
-<style>
-	a {
-		color: rgb(187, 187, 187);
-	}
-</style>
