@@ -1,10 +1,10 @@
 <script lang="ts">
+  const base = '/wis-garden'
   import { routes } from './routes'
 	let sidebarWidth = 200;
 	const sidebarToggle = () => {
 		sidebarWidth = sidebarWidth === 200 ? 0 : 200;
 	};
-  const base = '/wis-garden'
 </script>
 
 <div
@@ -33,7 +33,7 @@
 	<div class="w-full h-full p-5">
     {#each routes as route }
 		<div class="whitespace-nowrap overflow-hidden">
-			<a href={`${base}/note/${route}`}>{route}</a>
+			<a href={`${base}/note3/${route}`}>{route}</a>
 		</div>
     {/each}
 		<!-- <div class="whitespace-nowrap overflow-hidden">

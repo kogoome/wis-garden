@@ -4,7 +4,7 @@
 
 </script>
 <div class="w-screen h-screen">
-  <SideNavbar/>
+  <!-- <SideNavbar/> -->
   <slot/>
 </div>
 
