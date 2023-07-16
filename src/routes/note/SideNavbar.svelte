@@ -1,6 +1,7 @@
 <script lang="ts">
-  export let base: string
-  import { routes } from './routes'
+  import { routes} from './routes'
+  export let base:string
+
 	let sidebarWidth = 200;
 	const sidebarToggle = () => {
 		sidebarWidth = sidebarWidth === 200 ? 0 : 200;
@@ -36,31 +37,6 @@
 			<a href={`${base}/note/${route}`}>{route}</a>
 		</div>
     {/each}
-		<!-- <div class="whitespace-nowrap overflow-hidden">
-			<a href="/note/test"
-				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-			>
-		</div>
-		<div class="whitespace-nowrap overflow-hidden">
-			<a href="/note/test"
-				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-			>
-		</div>
-		<div class="whitespace-nowrap overflow-hidden">
-			<a href="/note/test"
-				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-			>
-		</div>
-		<div class="whitespace-nowrap overflow-hidden">
-			<a href="/note/test"
-				>test asdjasd ns dabsadlsadklbd sdajbs abkjsd abkb sadb jksda bkbsjd abks bbsa d s</a
-			>
-		</div> -->
 	</div>
 </div>
 
-<style>
-	a {
-		color: rgb(187, 187, 187);
-	}
-</style>
