@@ -18,7 +18,8 @@ const withNextra = require('nextra')({
   theme: 'nextra-theme-docs',
   // theme: './theme.tsx',
   // theme: 'nextra-theme-blog',
-  themeConfig: './theme.config.jsx'
+  themeConfig: './theme.config.jsx',
+  latex: true
 })
 
 module.exports = withNextra(nextConfig)
