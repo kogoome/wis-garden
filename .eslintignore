@@ -9,9 +9,12 @@
 # next.js
 /.next/
 /out/
+next.config.js
 
 # nextra
-theme.config.js
+theme.config.jsx
+
+.prettierrc
 
 # production
 /build

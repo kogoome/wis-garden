@@ -4,9 +4,9 @@ import { Logo } from "./components/Logo";
 
 const config = {
 	logo: Logo,
-	// project: {
-	//   link: 'empty'
-	// },
+	project: {
+	  link: 'https://path-of-reason.github.io/wis-garden/'
+	},
 	docsRepositoryBase: 'https://github.com/path-of-reason/wis-garden',
 	footer: {
 		text: 'made by wis',
