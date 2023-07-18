@@ -6,8 +6,7 @@ export default function Layout({children, pageOpts}: NextraThemeLayoutProps) {
   return (
     <div>
       <Head>
-        <title>{title}</title>
-
+        <title>{title}</title> 
       </Head>
       <h1>My Theme</h1>
       Table of Content:
