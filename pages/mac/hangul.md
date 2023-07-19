@@ -32,4 +32,3 @@ plutil -convert binary1 ~/Library/Preferences/com.apple.symbolichotkeys.plist
 ```
 
 이제 맥을 리부트하면 한영전환이 변경된다.
-
