@@ -1,3 +1,15 @@
 {
-  "accentColor": ""
+  "accentColor": "#4391db",
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "translucency": false,
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "test"
+  ],
+  "showViewHeader": true,
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "Apple SD Gothic Neo,D2Coding ligature,JetBrainsMono Nerd Font",
+  "interfaceFontFamily": "",
+  "nativeMenus": false
 }

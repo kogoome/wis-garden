@@ -1,39 +1,72 @@
 {
   "main": {
-    "id": "c583d12eb79eb281",
+    "id": "fd1093f1ca0ab5c4",
     "type": "split",
     "children": [
       {
-        "id": "51cf0886d8aedc41",
+        "id": "b9e075acd36ab346",
         "type": "tabs",
         "children": [
           {
-            "id": "4c9ad7bdbcd27ae1",
+            "id": "3dda28ba24de7b60",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b048fd616acd907d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "34e8eefa8d174763",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/programming/rust/3.primitive_types.md",
+                "file": "pages/programming/rust/basic_syntax/printa.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f71389620750f7e1",
+    "id": "73d6ab9b634bdd5a",
     "type": "split",
     "children": [
       {
-        "id": "eb8b3df688815d24",
+        "id": "bdf200118554a240",
         "type": "tabs",
         "children": [
           {
-            "id": "b7f4c1ab56c2e298",
+            "id": "091514175cef265b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "vscode",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c47da004119996a4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,73 +76,79 @@
             }
           },
           {
-            "id": "8348428b0626c4ff",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "66361b87880fabea",
+            "id": "114d3fcb27b4a17b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "d32b5997a5471a2b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "com.maxymillion.zen",
+              "state": {},
+              "pinned": true
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 251.5
   },
   "right": {
-    "id": "73f1aa332416b9b8",
+    "id": "f5448e0bdba253d5",
     "type": "split",
     "children": [
       {
-        "id": "7869c74c58906ec0",
+        "id": "962836cd3a5a77cd",
         "type": "tabs",
         "children": [
           {
-            "id": "1a152d9b2a42923f",
+            "id": "d9a8f60232f8f3a8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/programming/rust/3.primitive_types.md",
+                "file": "pages/programming/rust/basic_syntax/printa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "6f5ce748d97a4b36",
+            "id": "2ff5f2b5d7e007a6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/programming/rust/3.primitive_types.md",
+                "file": "pages/programming/rust/basic_syntax/printa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "552931e099bd8731",
+            "id": "ac7f3f407eb089dc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/programming/rust/basic_syntax/printa.md"
+              }
+            }
+          },
+          {
+            "id": "dc0a8d3583850c15",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,34 +159,118 @@
             }
           },
           {
-            "id": "c776c4f9083028d1",
+            "id": "efbf885beb4fa7a0",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "pages/programming/rust/3.primitive_types.md"
-              }
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7abd4b123aad87f5",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "e6a7c14d67bf760d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c89817645d5664d4",
+            "type": "leaf",
+            "state": {
+              "type": "ObsiDOOM Side Panel",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 225.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:새 캔버스 만들기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "audio-recorder:녹음 시작/중지": false,
+      "random-note:랜덤 노트 열기": false,
+      "zk-prefixer:새로운 유니크 노트 생성": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "4c9ad7bdbcd27ae1",
+  "active": "34e8eefa8d174763",
   "lastOpenFiles": [
-    "pages/programming/rust/2.comment.md"
+    "pages/programming/rust/basic_syntax/traits.md",
+    "pages/programming/rust/basic_syntax/printa.md",
+    "pages/programming/rust/basic_syntax/printa.md",
+    "README.md",
+    "traits.md",
+    "programming/rust/basic_syntax/traits.md",
+    "programming/rust/basic_syntax",
+    "programming/rust",
+    "programming",
+    "node_modules/sharp/build/Release/sharp-darwin-arm64v8.node",
+    "node_modules/sharp/build/Release",
+    "node_modules/sharp/build",
+    "node_modules/sharp/vendor/8.14.2/darwin-arm64v8/include/glib-2.0/glib/deprecated/gthread.h",
+    "node_modules/sharp/vendor/8.14.2/darwin-arm64v8/include/glib-2.0/glib/deprecated/grel.h",
+    "node_modules/sharp/vendor/8.14.2/darwin-arm64v8/include/glib-2.0/glib/deprecated/gmain.h",
+    "node_modules/sharp/vendor/8.14.2/darwin-arm64v8/include/glib-2.0/glib/deprecated/gcompletion.h",
+    "node_modules/sharp/vendor/8.14.2/darwin-arm64v8/THIRD-PARTY-NOTICES.md",
+    "node_modules/rc/node_modules/strip-json-comments/readme.md",
+    "node_modules/rc/README.md",
+    "node_modules/prebuild-install/node_modules/tar-stream/README.md",
+    "node_modules/prebuild-install/node_modules/tar-fs/README.md",
+    "node_modules/prebuild-install/CONTRIBUTING.md",
+    "node_modules/prebuild-install/README.md",
+    "node_modules/prebuild-install/CHANGELOG.md",
+    "node_modules/ieee754/README.md",
+    "node_modules/string_decoder/README.md",
+    "node_modules/base64-js/README.md",
+    "node_modules/buffer/README.md",
+    "node_modules/buffer/AUTHORS.md",
+    "node_modules/readable-stream/README.md",
+    "node_modules/readable-stream/CONTRIBUTING.md",
+    "node_modules/readable-stream/GOVERNANCE.md",
+    "node_modules/fs-constants/README.md",
+    "node_modules/bl/LICENSE.md",
+    "node_modules/bl/README.md",
+    "node_modules/chownr/README.md",
+    "pages/programming/mac/zsh,_ohmyzsh1.png",
+    "programming/mac/zsh,_ohmyzsh1.png",
+    "programming/mac/Pasted image 20230720052501.png",
+    "programming/mac/Pasted image 20230720052357.png",
+    "marblewriter_magazin/그림8.png",
+    "programming/mac/yabai1.png",
+    "programming/mac/yabai2.png",
+    "programming/mac/Pasted image 20230719194435.png",
+    "programming/mac/hangul1.png",
+    "programming/mac/hangul2.png",
+    "0.inbox/무제 파일.canvas",
+    "3.Resources/gpt를 통한 글쓰기/output/개념지도.canvas",
+    "1.Projects/1%네트워크/네트워크.canvas",
+    "4.Archives/글쓰기 특강/비밀과 개념지도.canvas",
+    "2.Areas/비폭력 대화/비폭력대화.canvas",
+    "journer/test.canvas",
+    "PARA/1.Projects/elixir/elixir in action/무제 파일.canvas",
+    "무제 파일.canvas",
+    "1.Projects/메타인지/메타인지.canvas",
+    "PARA/1.Projects/gpt를 통한 글쓰기/output/무제 파일.canvas"
   ]
 }

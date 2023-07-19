@@ -4,9 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
-/pages/.obsidian
-/pages/.trash
-/pages/.DS_Store
+
+# obsidian
+.obsidian
+.trash
+.DS_Store
 # testing
 /coverage
 

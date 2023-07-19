@@ -1,1 +1,15 @@
-{}
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./",
+  "showUnsupportedFiles": false,
+  "newFileLocation": "current",
+  "showInlineTitle": true,
+  "foldHeading": true,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "tabSize": 2,
+  "vimMode": true,
+  "useMarkdownLinks": true
+}
