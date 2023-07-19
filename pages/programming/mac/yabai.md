@@ -18,13 +18,14 @@
 등의 대표적인 기능을 지원한다.
 
 사용하면 다음과 같은 화면을 볼 수 있다.
+
 ![야바이](./yabai2.png)
 
 깔끔한 화면을 볼 수 있다.
 
 ### 야바이 설정
 야바이 설정은 `~/.config/yabai/yabairc` 파일에 보관한다.
-```conf
+```shell
 # bap stack or float 
 yabai -m config layout bsp 
 
@@ -70,7 +71,7 @@ skhd를 사용하여 야바이를 조작할 수 있다.
 
 ### 설정
 
-```
+```shell
 # https://github.com/josean-dev/dev-environment-files/blob/main/.config/skhd/skhdrc
 # https://github.com/koekeishiya/skhd
 
