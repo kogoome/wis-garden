@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/programming/rust/basic_syntax/printa.md",
+                "file": "pages/programming/rust/basic_syntax/traits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,7 +84,7 @@
             }
           },
           {
-            "id": "d32b5997a5471a2b",
+            "id": "12e47f6619f772c9",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/programming/rust/basic_syntax/printa.md",
+                "file": "pages/programming/rust/basic_syntax/traits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/programming/rust/basic_syntax/printa.md",
+                "file": "pages/programming/rust/basic_syntax/traits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/programming/rust/basic_syntax/printa.md"
+                "file": "pages/programming/rust/basic_syntax/traits.md"
               }
             }
           },
@@ -216,9 +216,8 @@
   },
   "active": "34e8eefa8d174763",
   "lastOpenFiles": [
+    "pages/programming/rust/basic_syntax/print.md",
     "pages/programming/rust/basic_syntax/traits.md",
-    "pages/programming/rust/basic_syntax/printa.md",
-    "pages/programming/rust/basic_syntax/printa.md",
     "README.md",
     "traits.md",
     "programming/rust/basic_syntax/traits.md",
