@@ -12,7 +12,7 @@
 
 다행히 맥에서는 핫키를 관리하는 파일이 있다. 해당 파일을 열어보자.
 
-!["~/Library/Preferences/com.apple.symbolichotkeys.plist"]("./hangul1.png")
+![~/Library/Preferences/com.apple.symbolichotkeys.plist](./hangul1.png)
 
 그림처럼 파일이 깨져서 나오는데, 파일이 바이너리로 컴파일 되어있기 때문이다.
 이 파일은 xml 파일로 구성되어져 있으니 컨버팅이 필요하다.
@@ -21,7 +21,7 @@
 plutil -convert xml1 ~/Library/Preferences/com.apple.symbolichotkeys.plist
 ```
 
-!["~/Library/Preferences/com.apple.symbolichotkeys.plist"]("./hangul2.png")
+![~/Library/Preferences/com.apple.symbolichotkeys.plist](./hangul2.png)
 
 파일이 잘 보이고 이제 문제의 한영키 셋팅에 가서 수정하면 된다.
 그림과 같이 61번 키의 내부 배열에서 마지막 숫자를 131072로 바꿔주자.
