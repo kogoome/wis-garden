@@ -4,5 +4,5 @@
 
 ## 플러그인
 
-- [plugin_terminal](plugin_terminal.md) : 옵시디언을 깃과 연동하기 위해 깃 플러그인을 사용해도 되지만 터미널을 쓴다면 더 안전하게 사용할 수 있다.
+- [plugin_terminal](plugin_terminal.md) : 옵시디언을 깃과 연동하기 위해 깃 플러그인을 사용해도 되지만 터미널을 쓴다면 더 안전하게 사용할 수 있지 않을까.
 - 
