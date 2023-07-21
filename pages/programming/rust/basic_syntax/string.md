@@ -42,6 +42,9 @@ let b = "string".to_string();
 
 String타입은 구조체에 의해 정의된 타입으로 힙영역에 존재하는 데이터다. ([3.primitive_types](3.primitive_types.md)) 또한 레퍼런스 타입이 아니기 때문에 할당 변수가 소유권을 갖게 된다. 변수의 소유권은 함수에게 위임하거나 다른 변수에게 위임하는 순간 제거된다.
 
+소유권이 제거된다는 말은 실제로 이전 변수가 갖고있던 주소값과 주소값이 가리키는 스택의 주소값 모두가 메모리에서 삭제된다는 뜻이다. 
+
+
 ```rust
 let x /* 주소값을 스택에 보관 소유권 없음 */ = "hello world";
 let y = x; // 주소값 복사
@@ -50,12 +53,21 @@ println!("{y}"); // hello world 모두 잘 출력
 
 let a /* 주소값과 소유권을 스택에 보관 */ 
 	= "string".to_string(); // 힙영역에 구조체로 저장되어있음
-let c = a; // 주소값 복사, !소유권 위임!
+let b = a; // 주소값 복사, !소유권 위임!
 println!("{a}"); // 데이터에 대한 소유권이 없기 때문에 오류
 ---> err
 rustc: borrow of moved value: `a`
 value borrowed here after move [E0382]
 ```
+
+| 변수       | 변수의 주소값       | 스택                                 | 힙       |
+| ---------- | ------------------- | ------------------------------------ | -------- |
+| x : &str   | 0x001               | "hello world"                        |          |
+| xr         | 0x002               | 0x001                                |          |
+| y          | 0x003               | "hello world" (할당과 동시에 복사됨) |          |
+| yr         | 0x004               | 0x002                                |          |
+| a : String | 0x005 (양도시 삭제) | String{address: 0x22} (양도시 삭제)  | "string" |
+| b : String | 0x006               | String{address: 0x22}                |          |
 
 ## size
 
