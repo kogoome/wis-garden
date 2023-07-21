@@ -1,0 +1,3 @@
+- [한영전환 `shift` + `space` 로 변환하기](hangul.md)
+- [yabai 개발자의 맥북 윈도우 매니저](yabai.md)
+- [zsh, ohmyzsh 터미널을 이쁘게 편하게](zsh,_ohmyzsh.md)
