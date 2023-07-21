@@ -10,6 +10,7 @@ vim 은 아주 오래된 텍스트 에디터로 개발자에게 사랑받아왔�
 
 ## 사용가이드
 - [`shift`+`k` 타입보기](use-blame_line(view_type).md)
+- [\*](asterisk.md)
 
 ## 플러그인
 - [plugin-nvim-surround](plugin-nvim-surround.md)
