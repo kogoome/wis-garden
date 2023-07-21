@@ -18,14 +18,14 @@
 
 ## api
 
-타우리를 사용하기 위해서는 프론트엔드의 코드를 SSR로 작성해서는 안된다. 그도 그럴게, 프론트엔드 서버를 굳이 운용할 필요가 없기 때문이다. CSR 혹은 SSG로 작성하게 하고, 서버사이드가 필요한 모든 요소들은 아래 타우리 API의 도움을 받아야 한다.
+타우리를 사용하기 위해서는 프론트엔드의 코드를 SSR로 작성해서는 안된다. 그도 그럴게, 프론트엔드 서버를 굳이 운용할 필요가 없기 때문이다. CSR 혹은 SSG로 작성하게 하고, 서버사이드가 필요한 모든 요소들은 아래 타우리 API의 도움을 받아야 한다.(현재 파일시스템 문서만 작성)
 
 - [app](https://tauri.app/v1/api/js/app)
 - [cli](https://tauri.app/v1/api/js/cli)
 - [clipboard](https://tauri.app/v1/api/js/clipboard)
 - [dialog](https://tauri.app/v1/api/js/dialog)
 - [event](https://tauri.app/v1/api/js/event)
-- [fs](api_fs.md)
+- [fs](api_fs.md) : 작성완료
 - [globalShortcut](https://tauri.app/v1/api/js/globalShortcut)
 - [http](https://tauri.app/v1/api/js/http)
 - [mocks](https://tauri.app/v1/api/js/mocks)
