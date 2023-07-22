@@ -10,7 +10,8 @@
 ![루나빔의 타입보기](./use-blame_line(view_type)2.png)
 
 이 명령어에 대한 설정은 
-~/.local/share/lunarvim/lvim/lua/lvim/core/which-key/lua 에 설정되어있다.
+`~/.local/share/lunarvim/lvim/lua/lvim/core/which-key/lua` 에 설정되어있다.
+
 ![gl설정값](./use-blame_line(view_type)3.png)
 
 설정파일에 접근하기가 불편하니 다음과 같이 바로가기를 만들어두는 편이 좋다.
