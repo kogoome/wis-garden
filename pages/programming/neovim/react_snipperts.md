@@ -28,3 +28,5 @@ lspconfig.emmet_ls.setup({
 ```
 
 이제 스니펫이 잘 동작할 것이다.
+
+설정파일이 커져 복잡해보인다면 [루아파일 분리하기](divide_lua.md)를 참고하자.
