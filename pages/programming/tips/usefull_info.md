@@ -1,6 +1,6 @@
 
 ![how to load Images like a pro](https://img.youtube.com/vi/hJ7Rg1821Q0/maxresdefault.jpg)
-이미지 레이지 로딩하는방법 : https://blog.webdevsimplified.com/2023-05/lazy-load-imagesImages 
+이미지 레이지 로딩하는방법 : https://blog.webdevsimplified.com/2023-05/lazy-load-images
 링크 : https://www.youtube.com/watch?v=hJ7Rg1821Q0
 
 
@@ -12,3 +12,7 @@
 풀텍스트 서치에 관한 글
 퍼지파인딩
 https://www.mongodb.com/basics/full-text-search
+
+
+스프링부트 vscode 환경설정
+https://www.youtube.com/watch?v=ZNsEVrE9NW0
