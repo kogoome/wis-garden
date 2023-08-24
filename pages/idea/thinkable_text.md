@@ -11,3 +11,4 @@ https://www.youtube.com/watch?v=CaP0C4nAw_Q
 생각하기와 말하기
 생각은 무엇으로 구성되는가?
 말하기는 듣는 대상이라는 목적대상이 전제되어있다.
+
